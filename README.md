@@ -16,9 +16,9 @@ Run the following in Powershell. If you are using a version of vcpkg before Sept
 
 ```bash
 # Use vcpkg to install dependencies
-./vcpkg.exe install yaml-cpp
-./vcpkg.exe install jwt-cpp
-./vcpkg.exe install boost
+./vcpkg.exe install yaml-cpp:x64-windows
+./vcpkg.exe install jwt-cpp:x64-windows
+./vcpkg.exe install boost:x64-windows
 ./vcpkg.exe integrate install
 
 ```
